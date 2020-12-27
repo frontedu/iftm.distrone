@@ -1,195 +1,218 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+  
 body {
-	height: 100%;
-	font-family: 'Poppins', sans-serif;
-	background-color: black;
-	color: white;
-	overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
 }
 
-div {
-	margin-right: 15%
+div{
+  margin-right: 15%
 }
-h1 {
-	font-weight: 800;
-	font-size: 40px;
+
+h1{
+  font-weight: 800;
+  font-size: 40px;
 }
-a{
+
+.button{
+  font-weight: 500;
+  margin-left: 15%;
+  background-color: #007AFF;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 33px;
 }
 
-.button {
-	font-weight: 500;
-	margin-left: 15%;
-	background-color: #007AFF;
-	color: white;
-	border: none;
-	padding: 12px 30px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	border-radius: 33px;
+.button2{
+  font-weight: 500;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
-.button2 {
-	font-weight: 500;
-	color: white;
-	padding: 10px 24px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-}
-
-.mainh1 {
+.mainh1{
   margin: 5% 8% 0% 15%;
 }
 
-.mainh3 {
-	font-size: 24px;
-	font-weight: 300;
-	margin-left: 15%;
-	margin-right: 15%;
+.mainh3{
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-.ill {
-	display: block;
-	float: left;
-	width: 150%;
-	margin-top: -33%;
-	margin-bottom: -33%;
+.ill{
+  display: block;
+  float: left;
+  width: 150%;
+  margin-top: -33%;
+  margin-bottom: -33%;
 }
 
-.logo {
-	width: 10rem;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	margin-top: 3%;
+.logo{
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3%;
 }
 
 .row:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.column {
-	float: left;
+.column{
+  float: left;
 }
 
-.card {
-	width: 34%;
-	height: 400px;
-	background-color: #131314;
-	border-radius: 10px;
-	position: relative;
-	box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
-	text-decoration: none;
-	margin-bottom: 12px;
+.card{
+  width: 34%;
+  height: 400px;
+  background-color: #131314;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+  text-decoration: none;
+  margin-bottom: 12px;
 }
 
-.mt {
-	margin-bottom: 32px;
+.mt{
+  margin-bottom: 32px;
 }
 
-.cd1 {
-	background-image: url(https://distrone.edkoone.repl.co/img/artist.png);
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	margin-right: 2%;
-	margin-left: 15%;
+.cd1{
+  background-image: url(https://distrone.edkoone.repl.co/img/artist.png);
+  background-repeat: no-repeat;
+  background-size: 25em;
+  background-position: bottom center;
+  background-position-x: 20%;
+  margin-right: 2%;
+  margin-left: 15%;
 }
 
-.cd2 {
-	background-image: url(https://distrone.edkoone.repl.co/img/vynil.png);
-	background-repeat: no-repeat;
-	background-position: top center;
+.cd2{
+  background-image: url(https://distrone.edkoone.repl.co/img/vinyl.png);
+  background-size: 30em;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
-.margem-cd1 {
-	margin-left: 8%;
-	margin-right: 8%;
+.margem-cd1{
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
-.margem-cd2 {
-	margin-left: 8%;
-	margin-right: 8%;
-	position: absolute;
-	bottom: 0;
+.margem-cd2{
+  margin-left: 8%;
+  margin-right: 8%;
+  position: absolute;
+  bottom: 0;
 }
 
-.card-h1 {
-	margin-bottom: -14px;
+.card-h1{
+  margin-bottom: -14px;
 }
 
-@media(max-width: 600px) {
-	div {
-		margin-left: 5%;
-	}
-	.mainh1,
-	.mainh3,
-	.button {
-		margin-left: 5%;
-	}
-	.card {
-		width: 100%;
-	}
-	.cd1,
-	.cd2 {
-		margin-left: 0%;
-	}
-	.cd1 {
-		background-image: url(https://distrone.edkoone.repl.co/img/artist.png);
-		background-repeat: no-repeat;
-		background-position: bottom center;
-	}
-	.cd2 {
-		background-image: url(https://distrone.edkoone.repl.co/img/vynil.png);
-		background-repeat: no-repeat;
-		background-position: left top;
-	}
+.s-white{
+  margin-top: 80px;
+  height: 500px;
+  background-color: #E5E5EA;
 }
 
-@media(min-width: 900px) {
-	.mainh1 {
-		margin-right: 50vw;
-	}
-	.mainh3 {
-		margin-right: 50vw;
-	}
-	.card {
-		width: 25%;
-	}
-	.ill {
-		margin-bottom: -50%;
-	}
+
+
+
+
+
+
+@media(max-width: 600px){
+
+  div{
+    margin-left: 5%;
+  }
+  .mainh1, .mainh3, .button{
+    margin-left: 5%;
+  }
+  .card{
+  width: 100%;
+  }
+  .cd1, .cd2{
+    margin-left: 0%;
+  }
+  .cd1{
+  background-size: 30em;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  }
+  .cd2{
+  background-size: 35em;
+  background-repeat: no-repeat;
+  background-position: left top;
+  }
+
 }
 
-@media(max-width: 430px) {
-	.logo {
-		margin-top: 40px;
-		margin-bottom: 56px;
-	}
-	h1 {
-		font-size: 32px;
-	}
-	mainh1 {
-		margin-right: 15%;
-		margin-top: 30px;
-	}
-	.ill {
-		display: none;
-	}
-	.mt {
-		margin-top: 56px;
-	}
+@media(min-width: 900px){
+
+  .mainh1{
+  margin-right: 50vw;
+  }
+  .mainh3{
+  margin-right: 50vw;
+  }
+  .card{
+  width: 25%;
+  }
+  .ill{
+    margin-bottom: -50%;
+  }
+  .cd1{
+    background-size: 30em;
+  }
+  .cd2{
+    background-size: 35em;
+  }
 }
 
-@media(max-width: 395px) {
-	.displaybt {
-		display: none;
-	}
+@media(max-width: 430px){
+  .logo{
+    margin-top: 40px;
+    margin-bottom: 56px;
+  }
+  h1{
+    font-size: 32px;
+  }
+  mainh1{
+    margin-right: 15%;
+    margin-top: 30px;
+
+  }
+  .ill{
+    display: none;
+  }
+
+  .mt{
+    margin-top: 56px;
+  }
+}
+
+@media(max-width: 395px)
+{
+  .displaybt{
+    display: none;
+  }
 }
