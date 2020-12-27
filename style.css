@@ -11,10 +11,12 @@ body {
 div {
 	margin-right: 15%
 }
-
 h1 {
 	font-weight: 800;
 	font-size: 40px;
+}
+a{
+  text-decoration: none;
 }
 
 .button {
@@ -42,7 +44,7 @@ h1 {
 }
 
 .mainh1 {
-	margin: 5% 8% 0% 15%;
+  margin: 5% 8% 0% 15%;
 }
 
 .mainh3 {
