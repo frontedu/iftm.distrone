@@ -1,97 +1,200 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-  
+
 body {
-  height: 100%;
-  font-family: 'Poppins', sans-serif;
-  background-color: black;
-  color: white;
-  overflow-x: hidden;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	background-color: black;
+	color: white;
+	overflow-x: hidden;
 }
 
-h1{
-  font-weight: 800;
-  font-size: 40px;
+div {
+	margin-right: 15%
 }
 
-.button{
-  font-weight: 500;
-  margin-left: 15%;
-  background-color: #007AFF;
-  color: white;
-  border: none;
-  padding: 12px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 33px;
+h1 {
+	font-weight: 800;
+	font-size: 40px;
 }
 
-.button2{
-  font-weight: 500;
-  color: white;
-  padding: 10px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+.button {
+	font-weight: 500;
+	margin-left: 15%;
+	background-color: #242A31;
+	color: white;
+	border: none;
+	padding: 12px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 33px;
 }
 
-.mainh1{
-  margin: 5% 8% 0% 15%;
+.button2 {
+	font-weight: 500;
+	color: white;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
 
-.mainh3{
-  font-size: 24px;
-  font-weight: 300;
-  margin-left: 15%;
-  margin-right: 15%;
-
+.mainh1 {
+	margin: 5% 8% 0% 15%;
 }
 
-@media(min-width: 900px){
-
-  .mainh1{
-  margin-right: 50vw;
-  }
-  .mainh3{
-  margin-right: 50vw;
-  }
-
+.mainh3 {
+	font-size: 24px;
+	font-weight: 300;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
-.ill{
-  display: block;
-  float: left;
-  width: 150%;
-  margin-top: -33%;
+.ill {
+	display: block;
+	float: left;
+	width: 150%;
+	margin-top: -35%;
+	margin-bottom: -35%;
 }
 
-.logo{
-  width: 10rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-top: 3%;
+.logo {
+	width: 10rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 3%;
 }
 
-@media(max-width: 430px){
-  .logo{
-    margin-top: 40px;
-    margin-bottom: 56px;
-  }
-  .displaybt{
-    display: none;
-  }
-  h1{
-    font-size: 32px;
-  }
-  mainh1{
-    margin-right: 15%;
-    margin-top: 30px;
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
-  }
-  .ill{
-    display: none;
-  }
+.column {
+	float: left;
+}
+
+.card {
+	width: 34%;
+	height: 400px;
+	background: #242A31;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+	text-decoration: none;
+	margin-bottom: 12px;
+}
+
+.mt {
+	margin-bottom: 32px;
+}
+
+.cd1 {
+	background-image: url(https://distrone.edkoone.repl.co/img/artist.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	margin-right: 2%;
+	margin-left: 15%;
+}
+
+.cd2 {
+	background-image: url(https://distrone.edkoone.repl.co/img/vynil.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.margem-cd1 {
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.margem-cd2 {
+	margin-left: 8%;
+	margin-right: 8%;
+	position: absolute;
+	bottom: 0;
+}
+
+.card-h1 {
+	margin-bottom: -14px;
+}
+
+@media(max-width: 600px) {
+	div {
+		margin-left: 5%;
+	}
+	.mainh1,
+	.mainh3,
+	.button {
+		margin-left: 5%;
+	}
+	.card {
+		width: 100%;
+		height: 400px;
+		background: #242A31;
+		border-radius: 10px;
+		position: relative;
+		box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+		text-decoration: none;
+		margin-bottom: 12px;
+	}
+	.cd1,
+	.cd2 {
+		margin-left: 0%;
+	}
+	.cd1 {
+		background-image: url(https://distrone.edkoone.repl.co/img/artist.png);
+		background-repeat: no-repeat;
+		background-position: bottom center;
+	}
+	.cd2 {
+		background-image: url(https://distrone.edkoone.repl.co/img/vynil.png);
+		background-repeat: no-repeat;
+		background-position: left top;
+	}
+}
+
+@media(min-width: 900px) {
+	.mainh1 {
+		margin-right: 50vw;
+	}
+	.mainh3 {
+		margin-right: 50vw;
+	}
+	.card {
+		width: 25%;
+	}
+	.ill {
+		margin-bottom: -50%;
+	}
+}
+
+@media(max-width: 430px) {
+	.logo {
+		margin-top: 40px;
+		margin-bottom: 56px;
+	}
+	h1 {
+		font-size: 32px;
+	}
+	mainh1 {
+		margin-right: 15%;
+		margin-top: 30px;
+	}
+	.ill {
+		display: none;
+	}
+	.mt {
+		margin-top: 56px;
+	}
+}
+
+@media(max-width: 395px) {
+	.displaybt {
+		display: none;
+	}
 }
