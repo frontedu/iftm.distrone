@@ -22,7 +22,7 @@ a{
 .button {
 	font-weight: 500;
 	margin-left: 15%;
-	background-color: #242A31;
+	background-color: #007AFF;
 	color: white;
 	border: none;
 	padding: 12px 30px;
@@ -83,7 +83,7 @@ a{
 .card {
 	width: 34%;
 	height: 400px;
-	background: #242A31;
+	background-color: #131314;
 	border-radius: 10px;
 	position: relative;
 	box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
