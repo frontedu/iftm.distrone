@@ -93,7 +93,7 @@ h1{
   background-color: #131314;
   border-radius: 10px;
   position: relative;
-  box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+  box-shadow: 0 14px 26px rgba(0,0,0,0.3);
   text-decoration: none;
   margin-bottom: 12px;
   transition: all 1.3s cubic-bezier(0.19, 1, 0.22, 1);
@@ -109,7 +109,7 @@ h1{
 }
 
 .cd1{
-  background-image: url(https://distrone.edkoone.repl.co/img/artist.png);
+  background-image: url(/img/artist.png);
   background-repeat: no-repeat;
   background-size: 25em;
   background-position: bottom center;
@@ -119,7 +119,7 @@ h1{
 }
 
 .cd2{
-  background-image: url(https://distrone.edkoone.repl.co/img/vinyl.png);
+  background-image: url(/img/vinyl.png);
   background-size: 30em;
   background-repeat: no-repeat;
   background-position: top center;
@@ -150,8 +150,7 @@ h1{
 
 
 
-
-
+/* MOBILE */
 
 @media(max-width: 600px){
 
@@ -163,6 +162,7 @@ h1{
   }
   .card{
   width: 100%;
+  box-shadow: none;
   }
   .cd1, .cd2{
     margin-left: 0%;
@@ -226,7 +226,7 @@ h1{
   }
 }
 
-@media(max-width: 380px)
+@media(max-width: 360px)
 {
   .displaybt{
     display: none;
