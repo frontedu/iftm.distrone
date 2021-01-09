@@ -9,7 +9,7 @@ body {
 }
 
 div{
-  margin-right: 15%
+  margin: 0 15%
 }
 
 h1{
@@ -50,12 +50,13 @@ h1{
 }
 
 .mainh1{
-  margin: 5% 8% 0% 15%;
+  margin: 5% 8% 0 15%;
 }
 
 .mainh3{
   font-size: 24px;
   font-weight: 300;
+  margin: 8px 15% 16px;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -103,7 +104,6 @@ h1{
   background-color: #141a1d;
   cursor: pointer;
 }
-
 .mt{
   margin-bottom: 32px;
 }
@@ -119,6 +119,7 @@ h1{
 }
 
 .cd2{
+  margin-left: 0%;
   background-image: url(/img/vinyl.png);
   background-size: 30em;
   background-repeat: no-repeat;
@@ -141,10 +142,17 @@ h1{
   margin-bottom: -14px;
 }
 
-.s-white{
-  margin-top: 80px;
-  height: 500px;
-  background-color: #E5E5EA;
+.copyright{
+  margin-top: 56px;
+}
+
+.h2align{
+  margin: 0 15% 50px;
+  text-align: center;
+  font-size: 24px;
+  background: linear-gradient(to right, #fff, #FF9500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -177,7 +185,9 @@ h1{
   background-repeat: no-repeat;
   background-position: left top;
   }
-
+  .h2align{
+    margin: 0;
+  }
 }
 
 @media(min-width: 900px){
@@ -199,6 +209,13 @@ h1{
   }
   .cd2{
     background-size: 35em;
+  }
+  .h2align{
+    font-size: 36px;
+    margin: 0 28% 50px;
+  }
+  .copyright{
+  margin-top: 80px;
   }
 }
 
