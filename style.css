@@ -150,7 +150,7 @@ h1{
   margin: 0 15% 50px;
   text-align: center;
   font-size: 24px;
-  background: linear-gradient(to right, #fff, #FF9500);
+  background: linear-gradient(to right, #fff, #F4C4A2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
