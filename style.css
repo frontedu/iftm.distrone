@@ -109,7 +109,7 @@ h1{
 }
 
 .cd1{
-  background-image: url(/img/artist.png);
+  background-image: url(img/artist.png);
   background-repeat: no-repeat;
   background-size: 25em;
   background-position: bottom center;
@@ -120,7 +120,7 @@ h1{
 
 .cd2{
   margin-left: 0%;
-  background-image: url(/img/vinyl.png);
+  background-image: url(img/vinyl.png);
   background-size: 30em;
   background-repeat: no-repeat;
   background-position: top center;
